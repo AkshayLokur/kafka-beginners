@@ -15,5 +15,5 @@ Zookeeper and Kafka is running on your local machine:
 Following topic should be created on your local machine:
 
 ```shell
-kafka-topics.sh --bootstrap-server localhost:9092 --create --topic test_topic --partitions 3 --replication-factor 1
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic second_topic --partitions 3 --replication-factor 1
 ```
